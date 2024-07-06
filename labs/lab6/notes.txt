@@ -1,0 +1,6 @@
+josephuse names.txt HoffmanT -3
+
+first search for HoffmanT so that you get a pointer to HoffmanT
+
+negative- counter CLOCKWISE everything is .prev 
+positive- clockwise everything is .next
