@@ -1,0 +1,8 @@
+Project 9 notes
+
+array size * ideal bucket size
+
+upsize table
+
+array double length and copy over
+
