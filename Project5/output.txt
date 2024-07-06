@@ -1,0 +1,13 @@
+output
+ACLU gjetson jsandburg jsmith
+ACRONYM
+AFCTC bgates gjetson jsandburg
+ASPCA afauxci bjones jsmith
+BFPR bgates gjetson
+GREENPEACE jrogers
+MADD jrogers kjohnson
+NRA bjones jrogers
+PETA afauxci
+SAVE_THE_WHALES kjohnson
+SDS gjetson
+YCL jsandburg jsmith

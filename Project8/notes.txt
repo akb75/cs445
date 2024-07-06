@@ -1,0 +1,42 @@
+definition: head is 
+G[i]
+
+head = new Edge (dest, weight, head);
+
+
+
+G[src] = new edge(dest, weight, G[src]);
+
+head = new node (data, head)
+
+outdegreeNode(i)
+treat that as a head pointer and 
+give me the size of that list 
+
+treat the source the index and 
+head pointer and feed into a traversal
+and count 
+
+
+node 3
+go to array sub 3
+
+
+
+
+
+
+mistakes: 
+
+addEdge( src, dest, weight )
+edge head = g[src]
+//just do a good ole insertAtFront
+head = new edge (dest, weight, head);
+
+above is wrong because you are 
+modifying the pointer that is
+local variable that will go away
+
+loop through input file 
+bundle up into an edge and then
+insert that edge onto the front

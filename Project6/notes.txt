@@ -1,0 +1,11 @@
+
+whiteboard two
+whiteboard three
+HoffmanT -3
+
+Skip 3 
+
+then delete the fourth node
+
+.bat file
+
