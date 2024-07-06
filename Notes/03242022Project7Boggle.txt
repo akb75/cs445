@@ -1,0 +1,21 @@
+
+whiteboard 4
+
+heuristic- depth first search
+
+lossee heuristic- 
+lossluss heuristic- 
+
+write a loop that indexes each
+cell of the 4x4
+
+16 different calls to the method
+each one has the row and column of that particular
+column in that grid
+
+depth first search- form all the strings
+that can possibly be formed that start at 
+dfs(this row, this column, "")
+the word is so far ""
+
+

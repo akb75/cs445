@@ -1,0 +1,10 @@
+
+pop 6
+adjust top pointer
+set 4.next to null
+return reference to 6
+top	6
+	4
+	3
+	2
+base 1

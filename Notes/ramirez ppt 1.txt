@@ -1,0 +1,61 @@
+Array/vector- unsorted 
+Use a sequential search algorithm
+iterate through all values until we find it or
+get to the end
+
+n items in the array, runtime would be O(n)
+compare all values in the array before determining value is not there
+
+sorted array- any advantage? 
+if sorted, use binary search, reduce runtime to
+o(log n)
+
+unsorted linked list- sequential search similar
+to of an array, traverse the list by following
+pointers rather than incrementing indexes
+o(n)
+
+sort linked list- asymptotically 
+sorting linked list does not help because
+access of linked list is sequential even if
+sorted b/c cannot do binary search in linked list
+o(n) worst case runtime
+
+best case scenrario- logn 
+
+direct comparison of keys using equality
+binary search- inequality, but still doing comparisons
+
+can we do better than o(logn) for binary search? 
+
+different appraoch to search: 
+
+dictionary- abstract strucutre that associates a value 
+with a key
+
+the key searches the data structure for the value
+
+key-value pairs
+
+dictionary is an interface
+specific implementation as long as functionality is satisfied
+
+Add, remove, get value all return V:
+return type V - specific idea 
+
+return value is the old value that was associated
+with the key
+
+old value is not wiped out, it is returned
+
+standard java interface called Map(K,V) very similar to this
+
+Slide 8: 
+implement the interface using an underlying sorted array,
+underlying linked list
+
+basic search involves direct comparisons of keys
+
+compare K to one or more keys in data structure
+
+maybe improve times 

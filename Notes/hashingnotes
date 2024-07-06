@@ -1,0 +1,61 @@
+hashing (Strings)
+
+majority of hashing done as string
+string- key value, id, password, username
+
+ideal hash function is a
+conversion or mapping of a string -> integer
+
+if(!s1.equals(s2))
+hashOf(s1) != hashOf(s2)
+
+int hashOf(String s)
+{
+write a loop that uses every char in s
+to generate an int from s
+
+return an integer that is an index into the
+array
+}
+
+example:
+array: store these strings in the array
+
+insertion, deletion, lookup
+
+foo- index 4
+bar- index 7
+baz- index 2
+fizz- index 0
+gorp- index 4
+blop- index 5
+mom- index 1
+pop- index 6
+
+the algorithm:
+
+"abcdef" look up value of the letters
+
+7 1 2 5
+
+
+
+
+in loop every time you do another
+as a mitigation to avoid overflow modulo it by
+table size
+
+make table size a prime number
+
+prime numbers so not a lot of
+
+
+
+
+int hashOf(String s)
+{
+	for each char
+	//instead of modulo do bit shift
+	sum = sum >> x
+
+}
